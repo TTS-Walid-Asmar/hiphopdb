@@ -1,3 +1,6 @@
+# This file is called song.rb
+# It contains the class Song
+
 class Song < ActiveRecord::Base
 
   validates :name, presence: true
